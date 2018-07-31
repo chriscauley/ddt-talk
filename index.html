@@ -52,7 +52,7 @@
       <div class="slides">
         <section>
           <h1>Development Driven Testing</h1>
-          <h4>A shortcut to 100% test coverage</h4>
+          <h4>A shortcut to 100% test coverage?</h4>
           <p>
             By <a href="https://github.com/chriscauley/">Chris Cauley</a>
           </p>
@@ -67,15 +67,15 @@
         </section>
 
         <section>
-          <h2>2. Come up with test data</h2>
-          <pre><code id="datajs" class="js"></code></pre>
-          <script>write("data.js")</script>
+          <h2>2. Write the tests</h2>
+          <pre><code id="testsjs" class="js"></code></pre>
+          <script>write("tests.js")</script>
         </section>
 
         <section>
-          <h2>3. Write the tests</h2>
-          <pre><code id="testsjs" class="js"></code></pre>
-          <script>write("tests.js")</script>
+          <h2>3. Come up with test data</h2>
+          <pre><code id="datajs" class="js"></code></pre>
+          <script>write("data.js")</script>
         </section>
 
         <section>
@@ -85,7 +85,7 @@
             <source src="https://i.imgur.com/Ruy7zy4.mp4"/>
           </video>
         </section>
-        
+
         <section>
           <h2>4. Verify with human eyes</h2>
           <pre><code id="humanjs" class="js"></code></pre>
@@ -97,15 +97,10 @@
           <ul>
             <li><p>Time (often longer than writing code)</p></li>
             <li><p>Hard to see the value</p></li>
-            <li><p>
-                Refactoring breaks tests
-            </p></li>
-            <li><p>
-                failed tests != broken code
-            </p></li>
-            <li><p>
-                passing tests != working code
-            </p></li>
+            <li><p>Refactoring breaks tests</p></li>
+            <li><p>failed tests != broken code</p></li>
+            <li><p>passing tests != working code</p></li>
+            <li><p>No tests after TDD push</p></li>
           </ul>
         </section>
 
@@ -116,6 +111,16 @@
             <div class="box">Test</div>
             <div class="box">Do</div>
           </div>
+        </section>
+
+        <section>
+          <h2>Use Cases</h2>
+          <ul>
+            <li><p>Going from 10% to 100% quickly</p></li>
+            <li><p>Inherited projects</p></li>
+            <li><p>"Blue sky" projects</p></li>
+            <li><p>Test CSS</p></li>
+          </ul>
         </section>
 
       </div>

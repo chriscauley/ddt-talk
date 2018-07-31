@@ -5,7 +5,7 @@ function getPasswordError(value) {
   if (!value.match(/[0-9]/)) {
     return "Password must contain at least one number";
   }
-  if (value.toUpperCase() == value || value.toLowerCase == value) {
+  if (value.toUpperCase() == value || value.toLowerCase() == value) {
     return "Password must contain both upper and lower case letters";
   }
 }
