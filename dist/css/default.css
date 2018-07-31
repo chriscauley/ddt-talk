@@ -352,4 +352,20 @@ div.left-align {
   position: static;
   width: auto; }
 
-/*# sourceMappingURL=default.css.map */
+.flexy {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.reveal .flexy .box {
+  padding: 8%;
+  border: rgb(167, 0, 19) 2px solid;
+  border-radius: 3px;
+  color: rgb(167, 0, 19);
+  background: rgba(167, 0, 19,0.3);
+}
+
+.reveal li {
+  padding-bottom: 0.5em;
+}
