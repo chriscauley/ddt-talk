@@ -13,6 +13,5 @@ for (let pw of GOOD_PASSWORDS) {
   human.tryToRememberIfPasswordWasMeantToPassOrFail()
   human.questionLifeChoices()
 
- ...
-
+  ...
 }
